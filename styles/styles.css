@@ -1,0 +1,23 @@
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-decoration: none;
+    margin: 1em 7em;
+}
+
+.nevagacao_topo-links {
+    font-size: 12px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.pos-topo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
