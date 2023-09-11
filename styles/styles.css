@@ -2,12 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: right;
-    text-decoration: none;
-    margin: 1em 7em;
+    margin: 1em 14em;
 }
 
 .nevagacao_topo-links {
     font-size: 12px;
+    text-decoration: none;
+    color: #000000;
 }
 
 .header {
@@ -16,8 +17,68 @@
     justify-content: left;
 }
 
+.header_img {
+    margin: 0 60px 0 12em;
+}
+
+.header-text {
+    margin: 5px;
+}
+
+.header_botao-home {
+    border:0px solid #ffffff;
+    background-color: #084dc4;
+    color: #ffffff;
+    border-radius:15px;
+    cursor:pointer;
+    font-size:16px;
+    padding:15px 30px;
+    text-decoration:none;
+}
+
+.header_botao-banking {
+    border:0px solid #ffffff;
+    background-color: #8931fc;
+    color: #ffffff;
+    border-radius:15px;
+    cursor:pointer;
+    font-size:16px;
+    padding:15px 30px;
+    text-decoration:none;
+}
+
+.header_botao-acessos {
+    border:2px solid #084dc4;
+    background-color: #ffffff;
+    color: #084dc4;
+    border-radius:15px;
+    cursor:pointer;
+    font-size:16px;
+    padding:15px 30px;
+    text-decoration:none;
+}
+
 .pos-topo {
     display: flex;
     justify-content: left;
     align-items: center;
+}
+
+.navegacao_pos-topo {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background: linear-gradient(90deg, rgba(136,63,255,1) 0%, rgba(9,9,121,1) 51%, rgba(49,216,250,1) 100%);
+    padding: 16px;
+    margin-top: 25px;
+}
+
+.navegacao_pos-topo {
+    width: 100%;
+}
+
+.navegacao_pos-links {
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
 }
