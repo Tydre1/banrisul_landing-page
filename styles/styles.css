@@ -1,14 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+    --cor-branca: #ffffff;
+    --itens-topo: #000000;
+    --cor-de-fundo: #fff;
+    --cor-botao1-background: #162dd8;
+    --cor-botao2: #8931fc;
+    --cor-botao3: #084dc4;
+    --gradiente-header: linear-gradient(90deg, rgba(136,63,255,1) 0%, rgba(9,9,121,1) 51%, rgba(49,216,250,1) 100%);
+}
+
 .topo {
     display: flex;
     align-items: center;
     justify-content: right;
-    margin: 1em 14em;
+    margin: 1em 12em;
 }
 
 .nevagacao_topo-links {
     font-size: 12px;
     text-decoration: none;
-    color: #000000;
+    color: var(--itens-topo);
 }
 
 .header {
@@ -26,9 +38,9 @@
 }
 
 .header_botao-home {
-    border:0px solid #ffffff;
-    background-color: #084dc4;
-    color: #ffffff;
+    border:0px solid var(--cor-branca);
+    background-color: var(--cor-botao1-background);
+    color: var(--cor-branca);
     border-radius:15px;
     cursor:pointer;
     font-size:16px;
@@ -37,9 +49,9 @@
 }
 
 .header_botao-banking {
-    border:0px solid #ffffff;
-    background-color: #8931fc;
-    color: #ffffff;
+    border:0px solid var(--cor-branca);
+    background-color: var(--cor-botao2);
+    color: var(--cor-branca);
     border-radius:15px;
     cursor:pointer;
     font-size:16px;
@@ -48,9 +60,9 @@
 }
 
 .header_botao-acessos {
-    border:2px solid #084dc4;
-    background-color: #ffffff;
-    color: #084dc4;
+    border:2px solid var(--cor-botao3);
+    background-color: var(--cor-branca);
+    color: var(--cor-botao3);
     border-radius:15px;
     cursor:pointer;
     font-size:16px;
@@ -66,19 +78,17 @@
 
 .navegacao_pos-topo {
     display: flex;
+    font-size: 15px;
     align-items: center;
-    justify-content: left;
-    background: linear-gradient(90deg, rgba(136,63,255,1) 0%, rgba(9,9,121,1) 51%, rgba(49,216,250,1) 100%);
-    padding: 16px;
-    margin-top: 25px;
-}
-
-.navegacao_pos-topo {
+    background: var(--gradiente-header);
+    padding: 3px;
+    margin-top: 6em;
     width: 100%;
+    position: fixed;
 }
 
 .navegacao_pos-links {
-    margin: 10px;
+    margin: 22px;
     text-decoration: none;
-    color: #fff;
+    color: var(--cor-branca);
 }
