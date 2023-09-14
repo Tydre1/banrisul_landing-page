@@ -26,7 +26,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: right;
-    margin: 1em 13em;
+    margin: 1em 23.3em;
     background-color: var(--background-header);
 }
 
@@ -44,12 +44,13 @@ body {
 }
 
 .header_img {
-    margin: 10px 60px 0px 14em;
+    margin: 10px 60px 0px 25em;
 }
 
 .header-text {
     margin: 5px;
     margin-left: 55px;
+    font-size: 18px;
 }
 
 .header_botao-home {
@@ -89,7 +90,7 @@ body {
    display:flex; 
    justify-content:center; 
    align-items:center; 
-   margin: -5.7em -20em; 
+   margin: -4em -20em; 
 }
 
 .navegacao_pos-topo {
@@ -110,7 +111,7 @@ body {
 }
 
 .carrosel_banners {
-   margin-top: 2.7em; 
+   margin-top: 3.2em; 
    display:flex; 
    align-items:center; 
    justify-content:center; 
@@ -122,48 +123,9 @@ body {
 }
 
 .nav_links {
-   margin :10px 0px 5px 15.5em; 
-   display:flex; 
-   flex-direction :column; 
-   list-style-type :none; 
-   gap :2em; 
-}
-
-/* Para telas grandes */
-@media (min-width: 1200px) {
-
-/* código para telas grandes aqui */
-
-}
-
-
-/* Para telas médias/grandes */
-@media (min-width: 992px) and (max-width: 1199px) {
-
-/* código para telas médias/grandes aqui */
-
-}
-
-
-/* Para telas médias/pequenas */
-@media (min-width: 768px) and (max-width: 991px) {
-
-/* código para telas médias/pequenas aqui */
-
-}
-
-
-/* Para telas pequenas */
-@media (min-width: 576px) and (max-width: 767px) {
-
-/* código para telas pequenas aqui */
-
-}
-
-
-/* Para telas muito pequenas */
-@media (max-width: 575px) {
-
-/* código para telas muito pequenas aqui */
-
+   margin: 10px 0px 2em 25em; 
+   display: flex; 
+   flex-direction: column; 
+   list-style-type: none; 
+   gap: 2em; 
 }
