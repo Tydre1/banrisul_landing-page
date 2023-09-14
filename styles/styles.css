@@ -3,18 +3,31 @@
 :root {
     --cor-branca: #ffffff;
     --itens-topo: #000000;
+    --background-header: #fff;
     --cor-de-fundo: #fff;
-    --cor-botao1-background: #162dd8;
+    --cor-botao1-background: #1c33e0;
     --cor-botao2: #8931fc;
     --cor-botao3: #084dc4;
     --gradiente-header: linear-gradient(90deg, rgba(136,63,255,1) 0%, rgba(9,9,121,1) 51%, rgba(49,216,250,1) 100%);
+}
+
+body {
+    padding-top: 140px;
+}
+
+.header-principal {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--background-header);
 }
 
 .topo {
     display: flex;
     align-items: center;
     justify-content: right;
-    margin: 1em 12em;
+    margin: 1em 13em;
+    background-color: var(--background-header);
 }
 
 .nevagacao_topo-links {
@@ -27,24 +40,26 @@
     display: flex;
     align-items: center;
     justify-content: left;
+    background-color: var(--background-header);
 }
 
 .header_img {
-    margin: 0 60px 0 12em;
+    margin: 10px 60px 0px 14em;
 }
 
 .header-text {
     margin: 5px;
+    margin-left: 55px;
 }
 
 .header_botao-home {
     border:0px solid var(--cor-branca);
+    border-radius:13px;
+    padding:15px 13px;
     background-color: var(--cor-botao1-background);
     color: var(--cor-branca);
-    border-radius:15px;
     cursor:pointer;
-    font-size:16px;
-    padding:15px 30px;
+    font-size:14px;
     text-decoration:none;
 }
 
@@ -52,43 +67,103 @@
     border:0px solid var(--cor-branca);
     background-color: var(--cor-botao2);
     color: var(--cor-branca);
-    border-radius:15px;
+    border-radius:13px;
     cursor:pointer;
-    font-size:16px;
-    padding:15px 30px;
+    font-size:14px;
+    padding:15px 13px;
     text-decoration:none;
 }
 
 .header_botao-acessos {
-    border:2px solid var(--cor-botao3);
-    background-color: var(--cor-branca);
-    color: var(--cor-botao3);
-    border-radius:15px;
-    cursor:pointer;
-    font-size:16px;
-    padding:15px 30px;
-    text-decoration:none;
+   border :2px solid var(--cor-botao3); 
+   background-color :var(--cor-branca); 
+   color :var(--cor-botao3); 
+   border-radius :13px; 
+   cursor :pointer; 
+   font-size :14px; 
+   padding :12.9px 25px; 
+   text-decoration :none; 
 }
 
 .pos-topo {
-    display: flex;
-    justify-content: left;
-    align-items: center;
+   display:flex; 
+   justify-content:center; 
+   align-items:center; 
+   margin: -5.7em -20em; 
 }
 
 .navegacao_pos-topo {
-    display: flex;
-    font-size: 15px;
-    align-items: center;
-    background: var(--gradiente-header);
-    padding: 3px;
-    margin-top: 6em;
-    width: 100%;
-    position: fixed;
+   display:flex; 
+   justify-content:center; 
+   font-size :15px; 
+   align-items:center; 
+   background :var(--gradiente-header); 
+   padding :3px 10em; 
+   margin :6em 16.5em 0px -2em; 
+   width :100%; 
 }
 
 .navegacao_pos-links {
-    margin: 22px;
-    text-decoration: none;
-    color: var(--cor-branca);
+   margin :22px; 
+   text-decoration :none; 
+   color :var(--cor-branca); 
+}
+
+.carrosel_banners {
+   margin-top: 2.7em; 
+   display:flex; 
+   align-items:center; 
+   justify-content:center; 
+}
+
+.banner-4passos {
+   border-radius :2em; 
+   border-color :#084dc4; 
+}
+
+.nav_links {
+   margin :10px 0px 5px 15.5em; 
+   display:flex; 
+   flex-direction :column; 
+   list-style-type :none; 
+   gap :2em; 
+}
+
+/* Para telas grandes */
+@media (min-width: 1200px) {
+
+/* código para telas grandes aqui */
+
+}
+
+
+/* Para telas médias/grandes */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+/* código para telas médias/grandes aqui */
+
+}
+
+
+/* Para telas médias/pequenas */
+@media (min-width: 768px) and (max-width: 991px) {
+
+/* código para telas médias/pequenas aqui */
+
+}
+
+
+/* Para telas pequenas */
+@media (min-width: 576px) and (max-width: 767px) {
+
+/* código para telas pequenas aqui */
+
+}
+
+
+/* Para telas muito pequenas */
+@media (max-width: 575px) {
+
+/* código para telas muito pequenas aqui */
+
 }
