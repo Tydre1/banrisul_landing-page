@@ -128,3 +128,42 @@ body {
    list-style-type :none; 
    gap :2em; 
 }
+
+/* Para telas grandes */
+@media (min-width: 1200px) {
+
+/* código para telas grandes aqui */
+
+}
+
+
+/* Para telas médias/grandes */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+/* código para telas médias/grandes aqui */
+
+}
+
+
+/* Para telas médias/pequenas */
+@media (min-width: 768px) and (max-width: 991px) {
+
+/* código para telas médias/pequenas aqui */
+
+}
+
+
+/* Para telas pequenas */
+@media (min-width: 576px) and (max-width: 767px) {
+
+/* código para telas pequenas aqui */
+
+}
+
+
+/* Para telas muito pequenas */
+@media (max-width: 575px) {
+
+/* código para telas muito pequenas aqui */
+
+}
