@@ -12,7 +12,7 @@
 }
 
 body {
-    padding-top: 140px;
+    padding-top: 8.75em;
 }
 
 .header-principal {
@@ -31,7 +31,7 @@ body {
 }
 
 .nevagacao_topo-links {
-    font-size: 12px;
+    font-size: 0.75em;
     text-decoration: none;
     color: var(--itens-topo);
 }
@@ -45,23 +45,23 @@ body {
 }
 
 .header_img {
-    margin: 10px 60px 16px 32em;
+    margin: 0.625em 3.75em 1em 32em;
 }
 
 .header-text {
-    margin: 5px;
-    margin-left: 55px;
+    margin: 0.313em;
+    margin-left: 3.438em;
     font-size: 16px;
 }
 
 .header_botao-home {
     border:0px solid var(--cor-branca);
-    border-radius:13px;
-    padding:15px 13px;
+    border-radius: 0.813em;
+    padding: 0.938em 0.813em;
     background-color: var(--cor-botao1-background);
     color: var(--cor-branca);
     cursor:pointer;
-    font-size:14px;
+    font-size: 14px;
     text-decoration:none;
 }
 
@@ -69,21 +69,21 @@ body {
     border:0px solid var(--cor-branca);
     background-color: var(--cor-botao2);
     color: var(--cor-branca);
-    border-radius:13px;
+    border-radius: 0.813em;
     cursor:pointer;
     font-size:14px;
-    padding:15px 13px;
+    padding: 0.938em 0.813em;
     text-decoration:none;
 }
 
 .header_botao-acessos {
-   border :2px solid var(--cor-botao3); 
-   background-color :var(--cor-branca); 
+   border: 2px solid var(--cor-botao3); 
+   background-color: var(--cor-branca); 
    color :var(--cor-botao3); 
-   border-radius :13px; 
+   border-radius: 0.813em; 
    cursor :pointer; 
-   font-size :14px; 
-   padding :12.9px 25px; 
+   font-size: 14px; 
+   padding: 0.806em 1.563em; 
    text-decoration :none; 
 }
 
@@ -95,18 +95,18 @@ body {
 }
 
 .navegacao_pos-topo {
-   display:flex; 
-   justify-content:center; 
-   font-size :15px; 
-   align-items:center; 
-   background :var(--gradiente-header); 
-   padding :3px 10em; 
-   margin :6em 16.5em 0px -2em; 
-   width :100%; 
+   display: flex; 
+   justify-content: center; 
+   font-size: 15px; 
+   align-items: center; 
+   background: var(--gradiente-header); 
+   padding: 0.188em 10em; 
+   margin: 6em 16.5em 0em -2em; 
+   width: 100%; 
 }
 
 .navegacao_pos-links {
-   margin :22px; 
+   margin :1.375em; 
    text-decoration :none; 
    color :var(--cor-branca); 
 }
@@ -124,7 +124,7 @@ body {
 }
 
 .nav_links {
-   margin: 10px 0px 2em 25em; 
+   margin: 0.625 0em 2em 25em; 
    display: flex; 
    flex-direction: column; 
    list-style-type: none; 
@@ -136,13 +136,13 @@ body {
     font-size: 14px;
     display: block;
     max-width: 13em; 
-    border-bottom: 1px solid #c3bdbd;
-    padding: 17px;
+    border-bottom: 0.063em solid #c3bdbd;
+    padding: 1.063em;
   }
   
   .nav_PrimeiraParte {
     list-style-type: none;
-    margin: 0 0 16px 0;
+    margin: 0 0 1em 0;
     padding: 0;
   }
   
